@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Learning ATB13x" parallel="methods" thread-count="2">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.palakgupta.ex_05_TestNGExamples.parallel.Method_level.LoginTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Learning ATB13x" parallel="classes" thread-count="2">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.palakgupta.ex_05_TestNGExamples.parallel.Class_Level_cross_browser_testing.ChromeTest"></class>
+            <class name="com.palakgupta.ex_05_TestNGExamples.parallel.Class_Level_cross_browser_testing.FireFox"></class>
+
+
+        </classes>
+    </test>
+</suite>
